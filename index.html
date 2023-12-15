@@ -3,49 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Your Portfolio</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .body-bg {
+            background-image: url('wallpapersden.com_tarnished-hd-elden-ring_2048x1152.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .content-section {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+            margin: 20px;
+            padding: 40px;
+            border-radius: 10px; /* Rounded corners for the sections */
+        }
+        h1, h2 {
+            color: #333; /* Dark text for better contrast on light background */
+        }
+    </style>
 </head>
-<body>
+<body class="body-bg">
     <header>
-        <h1>Welcome to My GitHub Portfolio</h1>
     </header>
 
-    <section id="about-me">
+    <section id="about-me" class="content-section">
         <h2>About Me</h2>
-        <p>Here is a brief introduction about myself...</p>
+        <p>Hello! My name is Benjamin Terriza-Williams. I am deeply passionate about programming and am currently pursuing a degree in Computer Science. My journey in the tech world is driven by my curiosity and a strong desire to understand the intricacies of programming. I am dedicated to honing my skills and learning new technologies to stay ahead in this ever-evolving field.</p>
     </section>
 
-    <section id="what-i-am-doing">
+    <section id="what-i-am-doing" class="content-section">
         <h2>What I Am Doing</h2>
-        <p>Currently working on...</p>
+        <p>Outside the classroom, I immerse myself in personal projects and collaborate with peers on innovative ideas. These experiences not only refine my technical abilities but also help me develop a collaborative spirit and problem-solving mindset.</p>
     </section>
 
-    <section id="skillset">
+    <section id="skillset" class="content-section">
         <h2>Skillset</h2>
         <ul>
-            <li>Programming Language 1</li>
-            <li>Programming Language 2</li>
-            <!-- Add more skills as needed -->
+            <li>SQL (Structured Query Language): Proficient in SQL with a strong understanding of database management systems. Experienced in writing complex queries, designing relational databases, optimizing database performance, and ensuring data integrity.</li>
+            <li>Java: Skilled in Java programming, focusing on object-oriented programming principles. Familiar with Java development environments and frameworks. Capable of building robust and scalable applications, including web and desktop applications.</li>
+            <!-- Add more as needed -->
         </ul>
     </section>
 
-    <section id="recent-projects">
+    <section id="recent-projects" class="content-section">
         <h2>Recent Projects</h2>
         <ul>
-            <li><a href="link-to-project-1">Project 1</a></li>
-            <li><a href="link-to-project-2">Project 2</a></li>
-            <!-- Add more projects as needed -->
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <!-- Add more as needed -->
         </ul>
     </section>
 
-    <section id="hobby">
+    <section id="hobby" class="content-section">
         <h2>Hobby</h2>
         <p>My hobbies include...</p>
     </section>
 
     <footer>
-        <p>Copyright © [Your Name]. All Rights Reserved.</p>
+        <!-- Your footer content -->
     </footer>
 </body>
 </html>

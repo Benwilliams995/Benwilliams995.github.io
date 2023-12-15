@@ -1,0 +1,61 @@
+/* Resetting default margins and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* Setting up the background image */
+body {
+    background-image: url('path_to_your_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for content sections */
+.content-section {
+    background: rgba(255, 255, 255, 0.5); /* semi-transparent white */
+    color: #333; /* dark grey text */
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+/* Header styles */
+header {
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background: rgba(0, 0, 0, 0.7); /* more opaque black for nav */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Additional styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+/* Footer styles */
+footer {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
